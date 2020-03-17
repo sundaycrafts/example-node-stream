@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "start-server-and-test 'node server.js' http://localhost:9090 'node client.js'"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "start-server-and-test": "^1.10.11"
+  }
+}
